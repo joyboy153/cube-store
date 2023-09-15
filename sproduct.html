@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="D:\yassin\coding\code3\logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cube Store</title>
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="D:\yassin\coding\code3\logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active"  href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="lag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping cart"></i></a>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#Happy Winter</h2>
+        <p>Save more with coupons & up to 70% off!</p>
+    </section>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="D:/yassin/coding/code3/pro/p1.jpg" width="100%" id="mainimg" alt="">
+            <div class="small-image-group">
+                <div class="small-image-col">
+                    <img src="D:/yassin/coding/code3/pro/p1.jpg" width="100%" class="smallimg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img src="D:/yassin/coding/code3/pro/p2.jpg" width="100%" class="smallimg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img src="D:/yassin/coding/code3/pro/p3.jpg" width="100%" class="smallimg" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img src="D:/yassin/coding/code3/pro/p4.jpg" width="100%" class="smallimg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Hoodie</h6>
+            <h4>Nike Black Hoodie</h4>
+            <h2>$50.00</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>blah blah blah blah blah blah blah blah blah blah blah 
+                blah blah blah blah blah blah blah blah blah blah blah blah
+                blah blah blah blah blah blah blah blah blah blah blah blah blah</span>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="email" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="D:/yassin/coding/code3/logo.png" alt="" width="50px">
+            <h4>Contact</h4>
+            <p><strong>Adderss:</strong> ****************************</p>
+            <p><strong>Phone</strong> +00000000000</p>
+            <P><strong>hours</strong> ***************</P>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Dilevry Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="D:/yassin/coding/code3/pay/app.png" alt="" width="150px">
+                <img src="D:/yassin/coding/code3/pay/play.png" alt="" width="150px">
+            </div>
+            <p>Secured Payment Getways</p>
+            <img src="D:/yassin/coding/code3/pay/pay.png" alt="" width="200px">
+        </div>
+    </footer>
+ <script src="script.js"></script>
+ <script>
+    var mainimg = document.getElementById("mainimg")
+    var smallimg  = document.getElementsByClassName("smallimg")
+
+    smallimg[0].onclick = function(){
+        mainimg.src = smallimg[0].src
+    }
+    smallimg[1].onclick = function(){
+        mainimg.src = smallimg[1].src
+    }
+    smallimg[2].onclick = function(){
+        mainimg.src = smallimg[2].src
+    }
+    smallimg[3].onclick = function(){
+        mainimg.src = smallimg[3].src
+    }
+ </script>
+</body>
+</html>
