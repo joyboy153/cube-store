@@ -128,7 +128,7 @@ button.white{
   background-size: cover;
   height: 90vh;
   width: 100%;
-  background-image: url("D:/yassin/coding/code3/bg.jpg") ;
+  background-image: url("bg.jpg") ;
 }
 #hero h4 {
   padding-bottom: 15px;
@@ -137,7 +137,7 @@ button.white{
   color: #088178;
 }
 #hero button{
-  background-image: url("D:/yassin/coding/code3/btn.png");
+  background-image: url("btn.png");
   background-color: transparent;
   background-size: cover;
   color: #088178;
@@ -259,7 +259,7 @@ button.white{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("D:/yassin/coding/code3/banners/b1.jpg");
+  background-image: url("banners/b1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -295,7 +295,7 @@ button.white{
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  background-image: url("D:/yassin/coding/code3/banners/b2.jpg");
+  background-image: url("banners/b2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -305,7 +305,7 @@ button.white{
   border-radius: 10px;
 }
 #sm-banner .banner-box:nth-child(2){
-  background-image: url("D:/yassin/coding/code3/banners/b3.jpg");
+  background-image: url("banners/b3.jpg");
   align-items: flex-start;
 }
 #sm-banner .banner-box:nth-child(2) h4,
@@ -343,7 +343,7 @@ button.white{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-image: url("D:/yassin/coding/code3/banners/b4.jpg");
+  background-image: url("banners/b4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 20% 30%;
@@ -434,7 +434,7 @@ footer a:hover{
 }
 
 #page-header{
-  background-image: url("D:/yassin/coding/code3/banners/b5.jpg");
+  background-image: url("banners/b5.jpg");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -513,7 +513,7 @@ footer a:hover{
   line-height: 25px;
 }
 #page-header1 {
-  background-image: url("D:/yassin/coding/code3/banners/b6.jpg");
+  background-image: url("banners/b6.jpg");
   width: 100%;
   height: 40vh;
   background-position: center;
@@ -541,7 +541,7 @@ footer a:hover{
   padding-left: 40px;
 }
 #page-header2{
-  background-image: url("D:/yassin/coding/code3/banners/b7.jpg");
+  background-image: url("banners/b7.jpg");
   width: 100%;
   height: 40vh;
   background-position: center;
